@@ -1,0 +1,17 @@
+{
+  "name": "collabdraw",
+  "version": "1.0.0",
+  "description": "collaborative drawing web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aakarshit",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "paper": "^0.12.11",
+    "socket.io": "^3.0.4"
+  }
+}

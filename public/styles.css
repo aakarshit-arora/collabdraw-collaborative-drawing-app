@@ -1,0 +1,46 @@
+*{
+  margin:0;
+  padding: 0;
+}
+html,body{
+  height: 100%;
+  width:100%;
+}
+body{
+  background-image: url(./white-texture.jpg);
+}
+.icons{
+  position: absolute;
+  z-index: 1;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+   user-select: none; /* Standard */
+}
+#canvas{
+  /* display: block; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+#black{
+  color: black;
+}
+#red{
+  color: red;
+}
+#blue{
+  color: blue;
+}
+#green{
+  color: green;
+}
+i{
+  margin: 3px 2px 1px;
+  padding: 1px;
+  font-size: 24px;
+}
+i:hover{
+  opacity: 0.5;
+}
